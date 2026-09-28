@@ -1,0 +1,21 @@
+# Dépendances 
+node_modules/
+
+# Secrets et config locale 
+.env
+.env.*
+!.env.example
+
+# Logs, builds, tests
+*.log
+npm-debug.log*
+coverage/
+dist/
+
+# OS et éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
