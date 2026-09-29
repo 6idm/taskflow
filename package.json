@@ -4,6 +4,9 @@
   "description": "Gestionnaire de tâches collaboratif",
   "main": "server.js",
   "scripts": {
+    "test": "node --test",
+    "test:unit": "node --test test/unit",
+    "test:integration": "node --test test/integration",
     "start": "node server.js",
     "dev": "node --watch server.js",
     "lint": "eslint .",
@@ -27,6 +30,7 @@
     "eslint": "^10.11.0",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.12.0",
-    "prettier": "^3.9.9"
+    "prettier": "^3.9.9",
+    "supertest": "^7.3.0"
   }
 }
